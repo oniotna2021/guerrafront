@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "start": "env-cmd -f .env.prod next dev --turbopack",
+    "start": "env-cmd -f ./.env.prod next dev --turbopack",
     "build": "next build",
     "next": "next start",
     "lint": "next lint"
